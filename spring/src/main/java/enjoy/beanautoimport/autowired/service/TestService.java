@@ -13,7 +13,7 @@ import javax.annotation.Resource;
 public class TestService {
 
 //	@Qualifier("testDao")
-//	@Autowired(required = false)
+	@Autowired(required = false)
 	@Resource
 	private TestDao testDao;
 

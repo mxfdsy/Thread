@@ -10,7 +10,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
-@ComponentScan({"enjoy.beanautoimport.autowired.controller","enjoy.beanautoimport.autowired.service","enjoy.beanautoimport.autowired.dao"})
+@ComponentScan({"enjoy.beanautoimport.autowired.controller",
+        "enjoy.beanautoimport.autowired.service",
+        "enjoy.beanautoimport.autowired.dao",
+        "enjoy.beanautoimport.autowired.bean"})
 public class CapMainAutowiredConfig {
 
     @Primary
