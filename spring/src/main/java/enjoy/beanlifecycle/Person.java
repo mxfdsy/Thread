@@ -1,4 +1,4 @@
-package enjoy;
+package enjoy.beanlifecycle;
 
 public class Person {
 	private String name;

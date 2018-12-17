@@ -3,6 +3,8 @@ package enjoy.beanimoprt.cap7.bean;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
+
 
 @Component
 public class Train implements InitializingBean, DisposableBean{
