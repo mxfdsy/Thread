@@ -39,6 +39,8 @@ public class LogAspects {
 
     @Around("pointCut()")
     public Object Around(ProceedingJoinPoint proceedingJoinPoint) throws Throwable{
+
+
         System.out.println("@Arount:Execution method... before");
         Object obj = proceedingJoinPoint.proceed();//相当于开始调div地
         System.out.println("@Arount:Execution method... after");

@@ -1,4 +1,4 @@
-package enjoy.beanimoprt.cap7.bean;
+package enjoy.beanlifecycle.cap7.bean;
 
 public class Bike {
 	public Bike(){

@@ -7,9 +7,12 @@ import enjoy.beanautoimport.autowired.config.CapMainAutowiredConfig;
 import enjoy.beanautoimport.autowired.dao.TestDao;
 import enjoy.beanautoimport.autowired.service.TestService;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class autowiredTest {
+//    @Autowired
+//    private  ;
 
 
     @Test
